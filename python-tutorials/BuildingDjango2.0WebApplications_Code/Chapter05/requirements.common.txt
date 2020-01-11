@@ -1,0 +1,4 @@
+django==2.2.2
+psycopg2-binary==2.8.3
+Pillow<4.4.0
+python-memcached==1.58

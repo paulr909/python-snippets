@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Flask Assets</title>
+{% assets "main_css" %}
+<link href="{{ ASSET_URL }}" type="text/css">
+{% endassets %}
+</head>
+<body>
+<h1>Flask Assets Example!</h1>
+{% assets "main_js" %}
+<script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+</body>
+</html>

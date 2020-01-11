@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d5adb3c-0d51-4725-a8b8-9b1e2d7a1160" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ch01-What's Built-In?/01_08/01_08_Finish.py" />
+        <option value="$PROJECT_DIR$/Ch02-Math/02_05/02_05_Finish.py" />
+        <option value="$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_05/04_05_Finish.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-9" />
+    <option name="width" value="3198" />
+    <option name="height" value="1773" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learning the Python 3 Standard Library-Exercise Files" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch01-What's Built-In?" type="462c0819:PsiDirectoryNode" />
+              <item name="01_08" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python GUI Development with Tkinter-Exercise Files" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d5adb3c-0d51-4725-a8b8-9b1e2d7a1160" name="Default" comment="" />
+      <created>1527603933309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527603933309</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="13" width="3202" height="1788" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_01/01_01_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_02/01_02_Finish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_03/01_03_Final.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_08/01_08_Finish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_07/01_07_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_06/01_06_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_05/01_05_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch01-What's Built-In?/01_04/01_04_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02-Math/02_01/02_01_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02-Math/02_02/02_02_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02-Math/02_03/02_03_Final.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02-Math/02_04/02_05_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02-Math/02_05/02_05_Finish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02-Math/02_06/02_06_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_01/03_01_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_02/03_02_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_03/03_03_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_04/03_04_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_04/03_04_Start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_05/03_05_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_05/03_05_Start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_06/03_06_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch03-Input-Output/03_07/03_07_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_01/04_01_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_02/04_02_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_02/04_02_Start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_03/04_03_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_03/04_03_Start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_04/04_04_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_05/04_05_Finish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_06/04_06_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_06/04_06_Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04-Date &amp; Time, HTML Parsing and HTTP/04_07/04_07_Finish.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+Valert('THE HOME.JS FILE HAS BEEN LOADED!')\u000afunction add(a,b){return a+b;}\u000afunction subtract(a,b){return a-b;}
+p1
+.
