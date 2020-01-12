@@ -1,9 +1,9 @@
 from socket import *
 
-if __name__ == '__main__':
-    target = input('Enter host to scan: ')
+if __name__ == "__main__":
+    target = input("Enter host to scan: ")
     targetIP = gethostbyname(target)
-    print('Starting scan on host ', targetIP)
+    print("Starting scan on host ", targetIP)
 
     # scan reserved ports
     for i in range(20, 1025):
@@ -12,5 +12,5 @@ if __name__ == '__main__':
         result = s.connect_ex((targetIP, i))
 
         if ():
-            print('Port %d: OPEN' % (i,))
+            print("Port %d: OPEN" % (i,))
         s.close()
