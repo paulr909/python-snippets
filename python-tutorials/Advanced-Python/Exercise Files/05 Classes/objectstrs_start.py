@@ -1,7 +1,7 @@
 # customize string representations of objects
 
 
-class Person():
+class Person:
     def __init__(self):
         self.fname = "Joe"
         self.lname = "Marini"

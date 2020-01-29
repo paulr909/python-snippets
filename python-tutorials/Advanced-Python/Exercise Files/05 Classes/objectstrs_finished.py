@@ -1,7 +1,7 @@
 # customize string representations of objects
 
 
-class Person():
+class Person:
     def __init__(self):
         self.fname = "Joe"
         self.lname = "Marini"
@@ -9,7 +9,9 @@ class Person():
 
     # use __repr__ to create a string useful for debugging
     def __repr__(self):
-        return "<Person Class - fname:{0}, lname:{1}, age{2}>".format(self.fname, self.lname, self.age)
+        return "<Person Class - fname:{0}, lname:{1}, age{2}>".format(
+            self.fname, self.lname, self.age
+        )
 
     # use str for a more human-readable string
     def __str__(self):
@@ -18,7 +20,7 @@ class Person():
     # use bytes to convert the informal string to a bytes object
     def __bytes__(self):
         val = "Person:{0}:{1}:{2}".format(self.fname, self.lname, self.age)
-        return bytes(val.encode('utf-8'))
+        return bytes(val.encode("utf-8"))
 
 
 def main():

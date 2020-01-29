@@ -14,17 +14,17 @@ def filterFunc2(x):
 
 
 def squareFunc(x):
-    return x**2
+    return x ** 2
 
 
 def toGrade(x):
-    if (x >= 90):
+    if x >= 90:
         return "A"
-    elif (x >= 80 and x < 90):
+    elif x >= 80 and x < 90:
         return "B"
-    elif (x >= 70 and x < 80):
+    elif x >= 70 and x < 80:
         return "C"
-    elif (x >= 65 and x < 70):
+    elif x >= 65 and x < 70:
         return "D"
     return "F"
 

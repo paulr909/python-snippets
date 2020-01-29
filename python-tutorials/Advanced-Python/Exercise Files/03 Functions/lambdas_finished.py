@@ -2,11 +2,11 @@
 
 
 def CelsisusToFahrenheit(temp):
-    return (temp * 9/5) + 32
+    return (temp * 9 / 5) + 32
 
 
 def FahrenheitToCelsisus(temp):
-    return (temp-32) * 5/9
+    return (temp - 32) * 5 / 9
 
 
 def main():
@@ -18,8 +18,8 @@ def main():
     print(list(map(CelsisusToFahrenheit, ctemps)))
 
     # Use lambdas to accomplish the same thing
-    print(list(map(lambda t: (t-32) * 5/9, ftemps)))
-    print(list(map(lambda t: (t * 9/5) + 32, ctemps)))
+    print(list(map(lambda t: (t - 32) * 5 / 9, ftemps)))
+    print(list(map(lambda t: (t * 9 / 5) + 32, ctemps)))
 
 
 if __name__ == "__main__":

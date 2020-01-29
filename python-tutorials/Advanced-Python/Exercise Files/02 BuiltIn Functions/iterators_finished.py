@@ -14,12 +14,12 @@ def main():
 
     # iterate using a function and a sentinel
     with open("testfile.txt", "r") as fp:
-        for line in iter(fp.readline, ''):
+        for line in iter(fp.readline, ""):
             print(line)
 
     # use regular interation over the days
     for m in range(len(days)):
-        print(m+1, days[m])
+        print(m + 1, days[m])
 
     # using enumerate reduces code and provides a counter
     for i, m in enumerate(days, start=1):

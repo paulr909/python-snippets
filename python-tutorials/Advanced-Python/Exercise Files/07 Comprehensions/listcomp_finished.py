@@ -7,8 +7,7 @@ def main():
     odds = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 
     # Perform a mapping and filter function on a list
-    evenSquared = list(
-        map(lambda e: e**2, filter(lambda e: e > 4 and e < 16, evens)))
+    evenSquared = list(map(lambda e: e ** 2, filter(lambda e: e > 4 and e < 16, evens)))
     print(evenSquared)
 
     # Derive a new list of numbers frm a given list

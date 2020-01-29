@@ -1,7 +1,7 @@
 # customize string representations of objects
 
 
-class myColor():
+class myColor:
     def __init__(self):
         self.red = 50
         self.green = 75
@@ -18,6 +18,7 @@ class myColor():
     # TODO: use dir to list the available properties
     def __dir__(self):
         pass
+
 
 def main():
     # create an instance of myColor

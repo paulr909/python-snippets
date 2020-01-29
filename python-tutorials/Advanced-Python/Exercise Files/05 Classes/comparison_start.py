@@ -1,7 +1,7 @@
 # Use special methods to compare objects to each other
 
 
-class Employee():
+class Employee:
     def __init__(self, fname, lname, level, yrsService):
         self.fname = fname
         self.lname = lname

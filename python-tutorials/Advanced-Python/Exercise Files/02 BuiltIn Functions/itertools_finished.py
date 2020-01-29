@@ -23,20 +23,19 @@ def main():
     print(next(count1))
 
     # accumulate creates an iterator that accumulates values
-    vals = [10,20,30,40,50,40,30]
+    vals = [10, 20, 30, 40, 50, 40, 30]
     acc = itertools.accumulate(vals, max)
     print(list(acc))
-        
+
     # use chain to connect sequences together
     x = itertools.chain("ABCD", "1234")
     print(list(x))
-    
+
     # dropwhile and takewhile will return values until
     # a certain condition is met that stops them
     print(list(itertools.dropwhile(testFunction, vals)))
     print(list(itertools.takewhile(testFunction, vals)))
-    
-    
+
+
 if __name__ == "__main__":
     main()
-    

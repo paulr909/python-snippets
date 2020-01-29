@@ -3,8 +3,7 @@
 
 def main():
     # define a list of items that we want to count
-    fruits = ['apple', 'pear', 'orange', 'banana',
-              'apple', 'grape', 'banana', 'banana']
+    fruits = ["apple", "pear", "orange", "banana", "apple", "grape", "banana", "banana"]
 
     # use a dictionary to count each element
     fruitCounter = {}
