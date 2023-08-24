@@ -4,7 +4,7 @@ import re
 # remove random file id from file name
 # https://www.youtube.com/watch?v=7xGdu3ySXj0
 
-file_path = "/home/paul/Videos/various/"
+file_path = "/home/paul/Videos/python-various/"
 extensions = (".mp4", ".webm", ".mkv")
 
 for file_name in os.listdir(file_path):
