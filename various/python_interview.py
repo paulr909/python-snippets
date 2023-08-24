@@ -1,5 +1,4 @@
 # FizzBuzz
-
 for num in range(1, 101):
     if num % 5 == 0 and num % 3 == 0:
         print("Fizz Buzz")
@@ -12,7 +11,6 @@ for num in range(1, 101):
 
 
 # Fibonacci Sequence
-
 a, b = 0, 1
 for i in range(0, 10):
     print(a)
@@ -20,8 +18,6 @@ for i in range(0, 10):
 
 
 # Fibonacci Generator
-
-
 def fib(num):
     a, b = 0, 1
     for i in range(0, num):
