@@ -1,5 +1,5 @@
 import string
-from random import *
+from random import choice
 
 
 characters = string.ascii_letters + string.digits

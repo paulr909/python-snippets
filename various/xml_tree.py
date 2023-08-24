@@ -9,7 +9,8 @@ security_token = config("TOKEN")
 
 # get xml data and save to data.xml
 url = (
-    f"https://transparency.entsoe.eu/api?securityToken={security_token}&documentType=A44&in_Domain=10YGB----------A"
+    f"https://transparency.entsoe.eu/api?securityToken={security_token}"
+    f"&documentType=A44&in_Domain=10YGB----------A"
     f"&out_Domain=10YGB----------A&periodStart={period_start}&periodEnd={period_end}"
 )
 
