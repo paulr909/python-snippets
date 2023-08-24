@@ -1,4 +1,4 @@
-from coroutine_decorator import coroutine_decorator
+from coroutine_decorator_pt2 import coroutine_decorator
 
 
 def sender(filename, target):
@@ -16,7 +16,7 @@ def match_counter(string):
             if string in line:
                 count += 1
     except GeneratorExit:
-        print('{}: {}'.format(string, count))
+        print("{}: {}".format(string, count))
 
 
 @coroutine_decorator
@@ -29,4 +29,4 @@ def longer_than(n):
                 print(line)
                 count += 1
     except GeneratorExit:
-        print('longer than {}: {}'.format(n, count))
+        print("longer than {}: {}".format(n, count))

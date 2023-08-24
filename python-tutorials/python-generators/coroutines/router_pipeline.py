@@ -1,4 +1,4 @@
-from coroutine_decorator import coroutine_decorator
+from coroutine_decorator_pt3 import coroutine_decorator
 
 
 @coroutine_decorator
@@ -6,7 +6,7 @@ def router():
     try:
         while True:
             line = yield
-            (first, last) = line.split(' ')
+            (first, last) = line.split(" ")
             fnames.send(first)
             lnames.send(last.strip())
     except GeneratorExit:
@@ -17,19 +17,19 @@ def router():
 @coroutine_decorator
 def file_write(filename):
     try:
-        with open(filename, 'a') as file:
+        with open(filename, "a") as file:
             while True:
                 line = yield
-                file.write(line + '\n')
+                file.write(line + "\n")
     except GeneratorExit:
         file.close()
-        print('one file created')
+        print("one file created")
 
 
 if __name__ == "__main__":
-    fnames = file_write('first_names.txt')
-    lnames = file_write('last_names.txt')
+    fnames = file_write("first_names.txt")
+    lnames = file_write("last_names.txt")
     router = router()
-    for name in open('names.txt'):
+    for name in open("names.txt"):
         router.send(name)
     router.close()

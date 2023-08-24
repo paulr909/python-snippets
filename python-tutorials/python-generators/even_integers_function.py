@@ -5,3 +5,6 @@ def even_integers_function(n):
         if i % 2 == 0:
             result.append(i)
     return result
+
+
+print(even_integers_function(20))
