@@ -8,11 +8,14 @@ FOOTER = "\nthis is the footer \n"
 @contextmanager
 def new_log_file(name):
     try:
-        logname = name
-        f = open(logname, "w")
+        log_name = name
+        f = open(log_name, "w")
         f.write(HEADER)
         yield f
     finally:
         f.write(FOOTER)
         print("logfile created")
         f.close()
+
+
+new_log_file("flog.log")

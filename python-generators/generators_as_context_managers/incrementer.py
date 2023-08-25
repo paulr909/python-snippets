@@ -19,9 +19,6 @@ class SomeObject(object):
 # use with
 obj = SomeObject(5)
 
-obj.some_property
 
 with simple_context_manager(obj):
     print(obj.some_property)
-
-obj.some_property

@@ -2,8 +2,7 @@ from contextlib import contextmanager
 from logging import Logger, FileHandler
 
 
-# a very simple example
-# @contextmanager
+# example @contextmanager
 def simple_context_manager(obj):
     try:
         obj.some_property += 1

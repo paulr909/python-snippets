@@ -16,7 +16,7 @@ def coroutine_example():
 
 
 c = coroutine_example()
-c.send('success!')
+c.send("success!")
 
 # error with above
 

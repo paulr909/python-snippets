@@ -8,18 +8,18 @@ def counter(string):
                     count += 1
                     print(item)
                 else:
-                    print('No Match')
+                    print("No Match")
             else:
-                print('Not a string')
+                print("Not a string")
     except GeneratorExit:
         print(count)
 
 
-c = counter('Maidstone')
+c = counter("Maidstone")
 c.__next__()
 
-c.send('Maid')
-c.send('West')
+c.send("Maid")
+c.send("West")
 c.send(1234)
 
 c.close()

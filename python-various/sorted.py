@@ -16,10 +16,7 @@ print(sorted(animals, key=lambda animal: animal["age"]))
 
 
 def rev_str(a: str):
-    # return sorted(a, reverse=True)
     return a[::-1]
-    # Or
-    # a = "".join(reversed(string))
 
 
 print(rev_str("Paul"))

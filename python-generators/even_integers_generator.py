@@ -6,4 +6,4 @@ def even_integers_generator(n):
 
 
 # then call it by using a list method
-list(even_integers_generator(10))
+print(list(even_integers_generator(10)))

@@ -9,10 +9,6 @@ def even_integers_generator(n):
 integers = even_integers_generator(10)
 
 # then call it by using the next method
-integers.next()
-# above only works in python2.7
-
-# for python3 use below
 integers.__next__()
 # calling next() on exhausted generator raises StopIteration
 

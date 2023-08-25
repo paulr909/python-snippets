@@ -14,7 +14,7 @@ new_list = [item.upper() for item in collection]
 print(new_list)
 
 # generator expression assigned to a variable
-upper_names = (item.upper() for item in collection)
+upper_names = (item.lower() for item in collection)
 
-# then call list method with upper_names as an argument
+# then call generator expression with upper_names as an argument
 print(list(upper_names))

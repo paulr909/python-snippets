@@ -10,8 +10,8 @@ for val in num_generator(3):
     print(val)
 
 
-def squared(x: int):
-    for i in range(x):
+def squared(n: int):
+    for i in range(n):
         yield i * i
 
 
