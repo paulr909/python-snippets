@@ -5,7 +5,7 @@ def say_hello(name):
 say_hello_2 = say_hello
 say_hello_2("Johnny")
 
-ENVIRONMENT = "prod"
+ENVIRONMENT = "staging"
 
 
 def fetch_data_real():
