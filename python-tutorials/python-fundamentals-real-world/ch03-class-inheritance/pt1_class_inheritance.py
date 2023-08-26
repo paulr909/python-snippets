@@ -1,8 +1,4 @@
-""" A Garage Full of Classy Vehicles """
-
-
 class Vehicle:  # Base Vehicle class
-
     def __init__(self, color, manuf):
         self.color = color
         self.manuf = manuf
@@ -11,32 +7,33 @@ class Vehicle:  # Base Vehicle class
     def drive(self):
         if self.gas > 0:
             self.gas -= 1
-            print('The {} {} goes VROOOM!'.format(self.color, self.manuf))
+            print(f"The {self.color} {self.manuf} goes VROOOM!")
         else:
-            print('The {} {} sputters out of gas.'.format(self.color, self.manuf))
+            print(f"The {self.color} {self.manuf} sputters out of gas.")
 
 
 class Car(Vehicle):  # Inherits from Vehicle class
-
     # turn the radio on
-    def radio(self):
+    @staticmethod
+    def radio():
         print("Rockin' Tunes!")
 
     # open the window
-    def window(self):
-        print('Ahhh... fresh air!')
+    @staticmethod
+    def window():
+        print("Ah... fresh air!")
 
 
 class Motorcycle(Vehicle):  # Inherits from Vehicle class
+    # put on motorcycle helmet
+    @staticmethod
+    def helmet():
+        print("Nice and safe!")
 
-    # put on motocycle helmet
-    def helmet(self):
-        print('Nice and safe!')
 
-
-# create car & motorcycle objects        
-my_car = Car('red', 'Mercedes')
-my_mc = Motorcycle('silver', 'Harley')
+# create car & motorcycle objects
+my_car = Car("red", "Mercedes")
+my_mc = Motorcycle("silver", "Harley")
 
 # take them out for a test drive
 my_car.drive()
