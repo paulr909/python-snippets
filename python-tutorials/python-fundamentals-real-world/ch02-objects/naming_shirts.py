@@ -2,7 +2,6 @@
 
 
 class Shirt:
-
     def __init__(self):
         self.clean = True
 

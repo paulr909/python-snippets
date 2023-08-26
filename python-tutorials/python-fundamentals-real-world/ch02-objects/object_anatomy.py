@@ -1,16 +1,16 @@
 """ What Makes Up an Object? """
 
 # examine a string object
-print('shirt')
-print(type('shirt'))
-print(dir('shirt'))
+print("shirt")
+print(type("shirt"))
+print(dir("shirt"))
 
 # use upper method on a string object
-print('shirt'.upper())
+print("shirt".upper())
 
 # examine IDs of different string objects
-print(id('shirt'))
-print(id('pants'))
+print(id("shirt"))
+print(id("pants"))
 
 # examine an integer object
 print(id(1))

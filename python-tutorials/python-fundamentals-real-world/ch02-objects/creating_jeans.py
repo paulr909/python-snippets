@@ -2,7 +2,6 @@
 
 
 class Jeans:
-
     def __init__(self, waist, length, color):
         self.waist = waist
         self.length = length
@@ -10,16 +9,16 @@ class Jeans:
         self.wearing = False
 
     def put_on(self):
-        print('Putting on {}x{} {} jeans'.format(self.waist, self.length, self.color))
+        print(f"Putting on {self.waist}x{self.length} {self.color} jeans")
         self.wearing = True
 
     def take_off(self):
-        print('Taking off {}x{} {} jeans'.format(self.waist, self.length, self.color))
+        print(f"Taking off {self.waist}x{self.length} {self.color} jeans")
         self.wearing = False
 
 
 # create and examine a pair of jeans
-my_jeans = Jeans(31, 32, 'blue')
+my_jeans = Jeans(31, 32, "blue")
 print(type(my_jeans))
 print(dir(my_jeans))
 
