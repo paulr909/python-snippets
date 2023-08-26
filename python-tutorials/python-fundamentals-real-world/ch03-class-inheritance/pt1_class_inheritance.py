@@ -16,7 +16,7 @@ class Car(Vehicle):  # Inherits from Vehicle class
     # turn the radio on
     @staticmethod
     def radio():
-        print("Rockin' Tunes!")
+        print("Pumping' Tunes!")
 
     # open the window
     @staticmethod

@@ -16,7 +16,7 @@ class Car(Vehicle):  # Inherits from Vehicle class
     # turn the radio on
     @staticmethod
     def radio():
-        print("Rockin' Tunes!")
+        print("Pumping' Tunes!")
 
     # open the window
     @staticmethod
@@ -34,7 +34,7 @@ class Motorcycle(Vehicle):  # Inherits from Vehicle class
 class ECar(Car):  # Inherits from Car class
     # an eco-friendly drive method
     def drive(self):
-        print(f"The {self.color} {self.manuf} goes ssshhhhh!")
+        print(f"The {self.color} {self.manuf} goes whoosh!")
 
 
 # create and use an electric car
