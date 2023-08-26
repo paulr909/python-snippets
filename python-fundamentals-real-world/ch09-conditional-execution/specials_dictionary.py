@@ -1,5 +1,3 @@
-""" I'll Have the Special! """
-
 specials = {
     "Sunday": "spinach",
     "Monday": "mushroom",
@@ -13,7 +11,7 @@ specials = {
 
 def order(day):
     pizza = specials[day]
-    print("Order the {} pizza.".format(pizza))
+    print(f"Order the {pizza} pizza.")
 
 
 # order the Saturday special!

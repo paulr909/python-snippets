@@ -1,5 +1,3 @@
-""" Ordering A Pizza That Verne Can Eat """
-
 # things that Verne does not eat
 diet_restrictions = {"meat", "cheese"}
 
