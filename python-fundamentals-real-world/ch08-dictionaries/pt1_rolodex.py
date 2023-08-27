@@ -11,8 +11,30 @@ rolodex = {
     "Verne": 5555309,
 }
 
+# look for Amanda (not in rolodex)
+# print(rolodex['Amanda']) # causes an error
+
 # look up Verne's number
 print(rolodex["Verne"])
 
 # look at hash value of 'Verne'
 print(hash("Verne"))
+
+# add Amanda to the rolodex
+rolodex["Amanda"] = 5559754
+print(rolodex["Amanda"])
+
+# overwrite David's number
+print(rolodex["David"])
+rolodex["David"] = 5550902
+print(rolodex["David"])
+
+# store a tuple with both numbers
+rolodex["David"] = (5558331, 5550902)
+print(rolodex["David"])
+
+# store each David's number with a unique key
+rolodex["David"] = 5558331
+rolodex["David (Amanda)"] = 5550902
+print(rolodex["David"])
+print(rolodex["David (Amanda)"])
