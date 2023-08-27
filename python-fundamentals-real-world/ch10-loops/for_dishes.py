@@ -6,4 +6,4 @@ for dish in list(sink):
     sink.remove(dish)
 
 # check that the sink is empty
-print(sink)
+print("Empty!", sink)
