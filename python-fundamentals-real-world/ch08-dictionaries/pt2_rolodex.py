@@ -1,5 +1,3 @@
-""" A Rolodex Full of Friends """
-
 # dictionary of key/value pairs
 rolodex = {
     "Aaron": 5556069,
