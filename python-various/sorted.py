@@ -15,8 +15,8 @@ animals = [
 print(sorted(animals, key=lambda animal: animal["age"]))
 
 
-def rev_str(a: str):
+def reverse_str(a: str):
     return a[::-1]
 
 
-print(rev_str("Paul"))
+print(reverse_str("Paul"))
