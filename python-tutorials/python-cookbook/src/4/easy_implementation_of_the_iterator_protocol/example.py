@@ -2,13 +2,14 @@
 #
 # Example of depth-first search using a generator
 
+
 class Node:
     def __init__(self, value):
         self._value = value
         self._children = []
 
     def __repr__(self):
-        return 'Node({!r})'.format(self._value)
+        return "Node({!r})".format(self._value)
 
     def add_child(self, node):
         self._children.append(node)
@@ -21,8 +22,9 @@ class Node:
         for c in self:
             yield from c.depth_first()
 
+
 # Example
-if __name__ == '__main__':
+if __name__ == "__main__":
     root = Node(0)
     child1 = Node(1)
     child2 = Node(2)
