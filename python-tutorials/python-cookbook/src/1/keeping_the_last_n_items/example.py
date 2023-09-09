@@ -10,10 +10,10 @@ def search(lines, pattern, history=5):
 
 
 # Example use on a file
-if __name__ == '__main__':
-    with open('somefile.txt') as f:
-        for line, prevlines in search(f, 'python', 10):
+if __name__ == "__main__":
+    with open("somefile.txt") as f:
+        for line, prevlines in search(f, "python", 10):
             for pline in prevlines:
-                print(pline, end='')
-            print(line, end='')
-            print('-' * 20)
+                print(pline, end="")
+            print(line, end="")
+            print("-" * 20)

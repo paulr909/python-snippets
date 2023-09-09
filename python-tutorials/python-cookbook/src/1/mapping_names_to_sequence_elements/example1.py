@@ -2,7 +2,7 @@
 
 from collections import namedtuple
 
-Stock = namedtuple('Stock', ['name', 'shares', 'price'])
+Stock = namedtuple("Stock", ["name", "shares", "price"])
 
 
 def compute_cost(records):
@@ -14,10 +14,6 @@ def compute_cost(records):
 
 
 # Some Data
-records = [
-    ('GOOG', 100, 490.1),
-    ('ACME', 100, 123.45),
-    ('IBM', 50, 91.15)
-]
+records = [("GOOG", 100, 490.1), ("ACME", 100, 123.45), ("IBM", 50, 91.15)]
 
 print(compute_cost(records))

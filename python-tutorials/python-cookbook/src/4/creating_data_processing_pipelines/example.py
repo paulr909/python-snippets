@@ -1,16 +1,16 @@
-import os
+import bz2
 import fnmatch
 import gzip
-import bz2
+import os
 import re
 
 
-def gen_find(filepat, top):
+def gen_find(file_path, top):
     """
     Find all filenames in a directory tree that match a shell wildcard pattern
     """
     for path, dirlist, filelist in os.walk(top):
-        for name in fnmatch.filter(filelist, filepat):
+        for name in fnmatch.filter(filelist, file_path):
             yield os.path.join(path, name)
 
 
