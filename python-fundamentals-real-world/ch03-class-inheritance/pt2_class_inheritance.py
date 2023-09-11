@@ -41,9 +41,6 @@ class ECar(Car):  # Inherits from Car class
 my_ecar = ECar("white", "Nissan")
 my_ecar.window()
 my_ecar.radio()
-my_ecar.color()
-my_ecar.drive()
-my_ecar.drive()
 my_ecar.drive()
 
 # access the lingering gas tank
