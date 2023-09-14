@@ -21,11 +21,7 @@ def get_page_url(name):
 
 if __name__ == "__main__":
     print(get_page_url("album"))
-
     print(get_page_url("checkout"))
-
     print(get_page_url("checknot"))
-
     print(get_page_url("pricing"))
-
     print(get_page_url("cover"))
