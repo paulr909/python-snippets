@@ -3,14 +3,12 @@ fruits = ["apple", "banana", "cherry"]
 
 for fruit in enumerate(fruits):
     print(fruit)
-print("\n")
 
 # Enumerate over a tuple of items with start index of 1
 colours = ("red", "green", "blue", "yellow", "orange", "purple")
 
 for index, colour in enumerate(colours, start=1):
     print(index, colour)
-print("\n")
 
 # Enumerate over a dictionary
 person = {"name": "John", "age": 30, "city": "New York"}
