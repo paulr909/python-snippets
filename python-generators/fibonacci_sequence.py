@@ -1,16 +1,12 @@
-# Fibonacci Sequence Generator
+# Fibonacci sequence generator
 def fibonacci_gen():
-    trailing, lead = 0, 1
+    a, b = 1, 1
     while True:
-        yield lead
-        trailing, lead = lead, trailing + lead
+        yield a
+        a, b = b, a + b
 
 
-# use with __next__()
-fib = fibonacci_gen()
-
-fib.__next__()
-
-# use generator in a for loop
-for _ in range(10):
-    fib.__next__()
+for index, x in enumerate(fibonacci_gen()):
+    if index == 10:
+        break
+    print(f"Index: {index}, Value: {x}")
