@@ -15,5 +15,3 @@ for country in countries:
     if country["population"] > 100_000_000:
         print(country)
         break
-
-# {'country': 'Philippines', 'population': 106651922}
