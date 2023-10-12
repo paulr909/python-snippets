@@ -1,7 +1,7 @@
 #!/usr/env python3
 
 config = {
-    "base_url": "http://getbootstrap.com/docs/4.1/examples/",
+    "base_url": "http://getbootstrap.com/docs/5.3/examples/",
     "pages": ["album", "checkout", "pricing", "cover"],
 }
 
