@@ -8,7 +8,7 @@ text2 = (
 
 def longest_even_length_word(sentence):
     strip_string = re.sub(r"[^a-zA-Z0-9]", " ", sentence).split()
-    print("Stripped:", " ".join(strip_string))
+    # print("Stripped:", " ".join(strip_string))
 
     even_length_words = [word for word in strip_string if len(word) % 2 == 0]
 
