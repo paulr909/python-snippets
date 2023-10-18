@@ -1,19 +1,18 @@
-class Vehicle:  # Base Vehicle class
+class Vehicle:
     def __init__(self, color, manufacturer):
         self.color = color
         self.manufacturer = manufacturer
-        self.gas = 4  # a full tank of gas
+        self.gas = 4  # full tank
 
     def drive(self):
         if self.gas > 0:
             self.gas -= 1
             print(f"The {self.color} {self.manufacturer} goes VROOOM!")
         else:
-            print(f"The {self.color} {self.manufacturer} sputters out of gas.")
+            print(f"The {self.color} {self.manufacturer} sputters out of gas")
 
 
-class Car(Vehicle):  # Inherits from Vehicle class
-    # turn the radio on
+class Car(Vehicle):
     @staticmethod
     def radio():
         print("Pumping' Tunes!")
@@ -24,20 +23,17 @@ class Car(Vehicle):  # Inherits from Vehicle class
         print("Ah... fresh air!")
 
 
-class Motorcycle(Vehicle):  # Inherits from Vehicle class
-    # put on motorcycle helmet
+class Motorcycle(Vehicle):
     @staticmethod
     def helmet():
         print("Nice and safe!")
 
 
-class ECar(Car):  # Inherits from Car class
-    # an eco-friendly drive method
+class ECar(Car):
     def drive(self):
         print(f"The {self.color} {self.manufacturer} goes whoosh!")
 
 
-# create and use an electric car
 my_ecar = ECar("white", "Nissan")
 my_ecar.window()
 my_ecar.radio()

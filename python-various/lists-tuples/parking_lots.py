@@ -1,4 +1,4 @@
-""" A 3-Dimensional Valet Service """
+"""3-Dimensional valet service"""
 
 
 # 2D list of lists

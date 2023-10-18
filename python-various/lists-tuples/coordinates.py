@@ -1,4 +1,4 @@
-""" Where's My Mouse? """
+""" Where's my mouse? """
 import tkinter
 
 

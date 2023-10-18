@@ -1,19 +1,18 @@
-class Vehicle:  # Base Vehicle class
+class Vehicle:
     def __init__(self, color, manufacturer):
         self.color = color
         self.manufacturer = manufacturer
-        self.gas = 4  # a full tank of gas
+        self.fuel = 4  # full tank
 
     def drive(self):
-        if self.gas > 0:
-            self.gas -= 1
+        if self.fuel > 0:
+            self.fuel -= 1
             print(f"The {self.color} {self.manufacturer} goes VROOOM!")
         else:
-            print(f"The {self.color} {self.manufacturer} sputters out of gas.")
+            print(f"The {self.color} {self.manufacturer} sputters out of fuel")
 
 
-class Car(Vehicle):  # Inherits from Vehicle class
-    # turn the radio on
+class Car(Vehicle):
     @staticmethod
     def radio():
         print("Pumping' Tunes!")
@@ -24,27 +23,23 @@ class Car(Vehicle):  # Inherits from Vehicle class
         print("Ah... fresh air!")
 
 
-class Motorcycle(Vehicle):  # Inherits from Vehicle class
-    # put on motorcycle helmet
+class Motorcycle(Vehicle):
     @staticmethod
     def helmet():
         print("Nice and safe!")
 
 
-# create car & motorcycle objects
 my_car = Car("red", "Mercedes")
-my_mc = Motorcycle("silver", "Harley")
+my_mc = Motorcycle("silver", "Suzuki")
 
-# take them out for a test drive
 my_car.drive()
 my_mc.drive()
 my_mc.drive()
 my_mc.drive()
 my_mc.drive()
-my_mc.drive()  # out of gas
+my_mc.drive()  # out of fuel
 my_car.drive()
 
-# play around with accessories
 my_car.radio()
 my_car.window()
 my_mc.helmet()
