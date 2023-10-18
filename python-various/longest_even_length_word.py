@@ -2,11 +2,11 @@ import re
 
 text1 = "Start a private video call with your friends or colleagues!"
 text2 = (
-    "This is a simple test sentence with some words? Plus some random numbers 3, 4, 6"
+    "This is a simple test sentence with some words? Plus some random numbers 3, 4, 6."
 )
 
 
-def longest_even_length_word(sentence):
+def get_longest_even_length_word(sentence: str) -> str:
     strip_string = re.sub(r"[^a-zA-Z0-9]", " ", sentence).split()
     # print("Stripped:", " ".join(strip_string))
 
@@ -18,6 +18,6 @@ def longest_even_length_word(sentence):
         return "00"
 
 
-result = longest_even_length_word(text2)
+result = get_longest_even_length_word(text1)
 
 print("Result:", result)
