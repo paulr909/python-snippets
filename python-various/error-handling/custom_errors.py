@@ -16,7 +16,7 @@ class PlumbingError(Exception):
         return f"The {self.device} is {self.problem}!"
 
 
-def cause_error(error_type):
+def cause_error(error_type: str) -> None:
     if error_type == "electrical":
         raise ElectricalError("circuit breaker", "overloaded")
 
@@ -24,7 +24,7 @@ def cause_error(error_type):
         raise PlumbingError("dishwasher", "spraying water")
 
     else:
-        raise Exception("a generic problem")
+        raise Exception("A generic problem")
 
 
 # cause some problems
@@ -39,5 +39,6 @@ except PlumbingError as e:
     print(e)
     print("Call the plumber")
 
-except:
+except Exception as e:
+    print(e)
     print("Call the landlord")

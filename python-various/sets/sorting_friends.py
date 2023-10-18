@@ -1,4 +1,4 @@
-""" Sorting Friends into Sets """
+""" Sorting friends into sets """
 
 
 # set of all friends

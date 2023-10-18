@@ -24,7 +24,7 @@ def make_pancake():
     return pancake
 
 
-def fancy_omelette(*ingredients):
+def fancy_omelette(*ingredients: str) -> str:
     mix_and_cook()
     omelette = f"A fancy omelette with {len(ingredients)} ingredients"
     return omelette

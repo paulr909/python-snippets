@@ -14,7 +14,7 @@ while hungry:
     else:
         print("Not yet...")
 
-    print("Closing the front door.")
+    print("Closing the front door")
     front_door.close()
 
     time.sleep(60)  # rest for 1 second

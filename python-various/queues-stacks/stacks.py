@@ -1,4 +1,4 @@
-""" A Stack of Bills to Pay """
+""" A stack of bills to pay """
 
 # create a list to use as the stack
 stack = list()

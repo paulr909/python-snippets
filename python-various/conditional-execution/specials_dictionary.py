@@ -11,7 +11,7 @@ specials = {
 
 def order(day):
     pizza = specials[day]
-    print(f"Order the {pizza} pizza.")
+    print(f"Order the {pizza} pizza")
 
 
 # order the Saturday special!

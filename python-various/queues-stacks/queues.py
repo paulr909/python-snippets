@@ -1,4 +1,4 @@
-""" A Queue of Groceries to Put Away """
+""" A queue of groceries to put away """
 
 # create a new queue object
 import queue
