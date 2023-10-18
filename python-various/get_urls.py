@@ -10,7 +10,7 @@ def get_base_url():
     return config["base_url"]
 
 
-def get_page_url(name):
+def get_page_url(name: str) -> str:
     page = ""
 
     if name in config["pages"]:
