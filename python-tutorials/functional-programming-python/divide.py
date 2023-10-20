@@ -2,7 +2,7 @@ def divide(x, y):
     return x / y
 
 
-def second_argument_isnt_zero(func):
+def second_argument_is_not_zero(func):
     def safe_version(*args):
         if args[1] == 0:
             print("Warning: second argument is zero")
@@ -12,6 +12,6 @@ def second_argument_isnt_zero(func):
     return safe_version
 
 
-divide_safe = second_argument_isnt_zero(divide)
+divide_safe = second_argument_is_not_zero(divide)
 
 print(divide_safe(10, 2))

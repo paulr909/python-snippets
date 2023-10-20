@@ -8,5 +8,5 @@ def get_sum(acc, x):
     return acc + x
 
 
-sum = reduce(get_sum, numbers_list)
-print(sum)
+result = reduce(get_sum, numbers_list)
+print(result)
