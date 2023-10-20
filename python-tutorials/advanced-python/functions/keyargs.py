@@ -2,14 +2,14 @@
 
 
 # use keyword-only arguments to help ensure code clarity
-def myFunction(arg1, arg2, *, suppressExceptions=False):
-    print(arg1, arg2, suppressExceptions)
+def my_function(arg1, arg2, *, suppress_exceptions=False):
+    print(arg1, arg2, suppress_exceptions)
 
 
 def main():
     # try to call the function without the keyword
-    # myFunction(1, 2, True)
-    myFunction(1, 2, suppressExceptions=True)
+    # my_function(1, 2, True)
+    my_function(1, 2, suppress_exceptions=True)
 
 
 if __name__ == "__main__":

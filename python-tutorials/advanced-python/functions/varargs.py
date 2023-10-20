@@ -16,8 +16,8 @@ def main():
     print(addition(1, 2, 3))
 
     # pass an existing list
-    myNums = [5, 10, 15, 20]
-    print(addition(*myNums))
+    nums = [5, 10, 15, 20]
+    print(addition(*nums))
 
 
 if __name__ == "__main__":

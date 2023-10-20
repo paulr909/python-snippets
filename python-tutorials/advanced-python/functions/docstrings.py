@@ -1,8 +1,8 @@
 # Demonstrate the use of function docstrings
 
 
-def myFunction(arg1, arg2=None):
-    """myFunction(arg1, arg2=None) --> Doesn't really do anything special.
+def my_function(arg1, arg2=None):
+    """my_function(arg1, arg2=None) --> Doesn't really do anything special.
 
     Parameters:
     arg1: the first argument. Whatever you feel like passing.
@@ -12,7 +12,7 @@ def myFunction(arg1, arg2=None):
 
 
 def main():
-    print(myFunction.__doc__)
+    print(my_function.__doc__)
 
 
 if __name__ == "__main__":

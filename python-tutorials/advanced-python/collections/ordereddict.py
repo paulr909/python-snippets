@@ -5,7 +5,7 @@ from collections import OrderedDict
 
 def main():
     # list of sport teams with wins and losses
-    sportTeams = [
+    sport_teams = [
         ("Royals", (18, 12)),
         ("Rockets", (24, 6)),
         ("Cardinals", (20, 10)),
@@ -17,10 +17,10 @@ def main():
     ]
 
     # sort the teams by number of wins
-    sortedTeams = sorted(sportTeams, key=lambda t: t[1][0], reverse=True)
+    sorted_teams = sorted(sport_teams, key=lambda t: t[1][0], reverse=True)
 
     # create an ordered dictionary of the teams
-    teams = OrderedDict(sortedTeams)
+    teams = OrderedDict(sorted_teams)
     print(teams)
 
     # Use popitem to remove the top item
