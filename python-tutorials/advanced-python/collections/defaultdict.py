@@ -8,14 +8,14 @@ def main():
     fruits = ["apple", "pear", "orange", "banana", "apple", "grape", "banana", "banana"]
 
     # use a dictionary to count each element
-    fruitCounter = defaultdict(int)
+    fruit_counter = defaultdict(int)
 
     # Count the elements in the list
     for fruit in fruits:
-        fruitCounter[fruit] += 1
+        fruit_counter[fruit] += 1
 
     # print the result
-    for (k, v) in fruitCounter.items():
+    for k, v in fruit_counter.items():
         print(k + ": " + str(v))
 
 

@@ -25,9 +25,9 @@ def main():
     print(Fruit.PEAR.value)
 
     # enums are hashable - can be used as keys
-    myFruits = {}
-    myFruits[Fruit.BANANA] = "Come Mr. Tally-man"
-    print(myFruits[Fruit.BANANA])
+    my_fruits = {}
+    my_fruits[Fruit.BANANA] = "Come Mr. Tally-man"
+    print(my_fruits[Fruit.BANANA])
 
 
 if __name__ == "__main__":

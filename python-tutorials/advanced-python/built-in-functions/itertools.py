@@ -3,7 +3,7 @@
 import itertools
 
 
-def testFunction(x):
+def test_function(x):
     return x < 40
 
 
@@ -33,8 +33,8 @@ def main():
 
     # dropwhile and takewhile will return values until
     # a certain condition is met that stops them
-    print(list(itertools.dropwhile(testFunction, vals)))
-    print(list(itertools.takewhile(testFunction, vals)))
+    print(list(itertools.dropwhile(test_function, vals)))
+    print(list(itertools.takewhile(test_function, vals)))
 
 
 if __name__ == "__main__":

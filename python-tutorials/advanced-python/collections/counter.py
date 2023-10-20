@@ -5,13 +5,14 @@ from collections import Counter
 
 def main():
     # list of students in class 1
-    class1 = [
+    students_class_1 = [
         "Bob",
         "James",
         "Chad",
         "Darcy",
         "Penny",
-        "Hannah" "Kevin",
+        "Hannah",
+        "Kevin",
         "James",
         "Melanie",
         "Becky",
@@ -20,7 +21,7 @@ def main():
     ]
 
     # list of students in class 2
-    class2 = [
+    students_class_2 = [
         "Bill",
         "Barry",
         "Cindy",
@@ -35,9 +36,9 @@ def main():
         "Ziggy",
     ]
 
-    # Create a Counter for class1 and class2
-    c1 = Counter(class1)
-    c2 = Counter(class2)
+    # Create a Counter for students_class_1 and class2
+    c1 = Counter(students_class_1)
+    c2 = Counter(students_class_2)
 
     # How many students in class 1 named James?
     print(c1["James"])
@@ -46,14 +47,14 @@ def main():
     print(sum(c1.values()), "students in class 1")
 
     # Combine the two classes
-    c1.update(class2)
+    c1.update(students_class_2)
     print(sum(c1.values()), "students in class 1 and 2")
 
     # What's the most common name in the two classes?
-    print(c1.most_common(3))
+    print("Most common name:", c1.most_common(3))
 
     # Separate the classes again
-    c1.subtract(class2)
+    c1.subtract(students_class_2)
     print(c1.most_common(1))
 
     # What's common between the two classes?

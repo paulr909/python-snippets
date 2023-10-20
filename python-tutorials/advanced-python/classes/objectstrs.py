@@ -3,23 +3,25 @@
 
 class Person:
     def __init__(self):
-        self.fname = "Joe"
-        self.lname = "Marini"
+        self.first_name = "Joe"
+        self.last_name = "Marini"
         self.age = 25
 
     # use __repr__ to create a string useful for debugging
     def __repr__(self):
-        return "<Person Class - fname:{0}, lname:{1}, age{2}>".format(
-            self.fname, self.lname, self.age
+        return "<Person Class - first_name:{0}, last_name:{1}, age{2}>".format(
+            self.first_name, self.last_name, self.age
         )
 
     # use str for a more human-readable string
     def __str__(self):
-        return "Person ({0} {1} is {2})".format(self.fname, self.lname, self.age)
+        return "Person ({0} {1} is {2})".format(
+            self.first_name, self.last_name, self.age
+        )
 
     # use bytes to convert the informal string to a bytes object
     def __bytes__(self):
-        val = "Person:{0}:{1}:{2}".format(self.fname, self.lname, self.age)
+        val = "Person:{0}:{1}:{2}".format(self.first_name, self.last_name, self.age)
         return bytes(val.encode("utf-8"))
 
 

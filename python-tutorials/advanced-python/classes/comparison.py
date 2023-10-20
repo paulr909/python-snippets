@@ -2,11 +2,11 @@
 
 
 class Employee:
-    def __init__(self, fname, lname, level, yrsService):
-        self.fname = fname
-        self.lname = lname
+    def __init__(self, first_name, last_name, level, yrs_service):
+        self.first_name = first_name
+        self.last_name = last_name
         self.level = level
-        self.seniority = yrsService
+        self.seniority = yrs_service
 
     # implement comparison functions by emp level
     def __ge__(self, other):
@@ -49,7 +49,7 @@ def main():
     # sort the items
     emps = sorted(dept)
     for emp in emps:
-        print(emp.lname)
+        print(emp.last_name)
 
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@
 def main():
     # define a list of days in English and French
     days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-    daysFr = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
+    days_french = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
 
     # use iter to create an iterator over a collection
     i = iter(days)
@@ -26,10 +26,10 @@ def main():
         print(i, m)
 
     # use zip to combine sequences
-    for m in zip(days, daysFr):
+    for m in zip(days, days_french):
         print(m)
 
-    for i, m in enumerate(zip(days, daysFr), start=1):
+    for i, m in enumerate(zip(days, days_french), start=1):
         print(i, m[0], "=", m[1], "in French")
 
 
