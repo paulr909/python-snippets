@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter import ttk, messagebox
 from statistics import mean, median
 from datetime import date
-import lpoDB
+import lpo_db
 
 __version__ = "0.3.2"
 

@@ -3,7 +3,7 @@
 from datetime import date, datetime, timedelta
 from tkinter import messagebox
 import sqlite3
-import lpoWeb
+import lpo_web
 
 __version__ = "0.3.2"
 
