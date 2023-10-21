@@ -9,7 +9,7 @@ import sys
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)  # Ignore any errors
 
-sleeptime = 6
+sleep_time = 6
 
 GPIO.setup(11, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
@@ -33,19 +33,19 @@ def stop():
     GPIO.output(13, 0)
 
 
-def breakhandler(signum, frame):
+def break_handler(signum, frame):
     print("goodbye")
     stop()
     GPIO.cleanup
     sys.exit()
 
 
-signal.signal(signal.SIGINT, breakhandler)
+signal.signal(signal.SIGINT, break_handler)
 
 while True:
     forward()
-    sleep(sleeptime)
+    sleep(sleep_time)
     stop()
     backwards()
-    sleep(sleeptime)
+    sleep(sleep_time)
     stop()
