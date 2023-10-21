@@ -14,8 +14,8 @@ class Feedback:
         ttk.Label(
             self.frame_header,
             text=(
-                "We're glad you chose Explore Californiafor your recent adventure.  "
-                "Please tell us what you thought about the 'Desert to Sea' tour."
+                "We're happy you chose explore California for your recent adventure."
+                "Please tell us what you thought about the Desert to Sea tour."
             ),
         )
 

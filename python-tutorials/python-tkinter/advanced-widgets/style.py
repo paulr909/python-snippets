@@ -15,7 +15,7 @@ style = ttk.Style()
 print(style.theme_names())
 print(style.theme_use())
 style.theme_use("classic")
-style.theme_use("vista")
+# style.theme_use("vista")
 
 print(button1.winfo_class())
 style.configure("TButton", foreground="blue")

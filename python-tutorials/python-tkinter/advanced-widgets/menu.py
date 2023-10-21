@@ -22,9 +22,7 @@ file.add_command(label="Open...", command=lambda: print("Opening File..."))
 file.add_command(label="Save", command=lambda: print("Saving File..."))
 
 file.entryconfig("New", accelerator="Ctrl+N")
-logo = PhotoImage(
-    file="C:\\Users\\barron\\Dropbox\\Lynda Courses\\Python GUI Development with Tkinter\\Exercise Files - Current\\03 Widget Classes\\python_logo.gif"
-).subsample(10, 10)
+logo = PhotoImage(file="python_logo.gif").subsample(10, 10)
 file.entryconfig("Open...", image=logo, compound="left")
 file.entryconfig("Open...", state="disabled")
 

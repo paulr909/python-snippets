@@ -9,7 +9,8 @@ label = ttk.Label(root, text="Hello, Tkinter!")
 label.pack()
 label.config(text="Howdy, Tkinter!")
 label.config(
-    text="Howdy, Tkinter! It's been a really long time since we last met.  Great to see you again!"
+    text="Howdy, Tkinter! It's been a really long time since we last met. "
+    "Great to see you again!"
 )
 label.config(wraplength=150)
 label.config(justify=CENTER)
