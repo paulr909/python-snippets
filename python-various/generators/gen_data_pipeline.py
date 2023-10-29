@@ -1,4 +1,4 @@
-file_name = "../../python-various/tech-crunch.csv"
+file_name = "../tech-crunch.csv"
 
 lines = (line for line in open(file_name))
 list_line = (s.rstrip().split(",") for s in lines)
