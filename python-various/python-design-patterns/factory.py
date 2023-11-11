@@ -2,7 +2,6 @@
 
 
 class FrenchLocalizer:
-
     """Returns the French version"""
 
     def __init__(self):
