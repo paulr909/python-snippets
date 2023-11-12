@@ -1,23 +1,21 @@
-# Singleton design pattern
 class Singleton:
-    __shared_instance = "Paul Codes"
+    __instance__ = None
 
     def __init__(self):
-        """Virtual private constructor"""
-        if Singleton.__shared_instance != "Paul Codes":
-            raise Exception("This class is a singleton class!")
+        """Constructor"""
+        if Singleton.__instance__ is None:
+            Singleton.__instance__ = self
         else:
-            Singleton.__shared_instance = self
+            raise Exception("You cannot create another Singleton class")
 
     @staticmethod
     def get_instance():
-        """Static access method"""
-        if Singleton.__shared_instance == "Paul Codes":
+        """Static method to fetch the current instance"""
+        if not Singleton.__instance__:
             Singleton()
-        return Singleton.__shared_instance
+        return Singleton.__instance__
 
 
-# main method
 if __name__ == "__main__":
     # Create object of Singleton Class
     obj = Singleton()
@@ -27,3 +25,7 @@ if __name__ == "__main__":
     obj = Singleton.get_instance()
     print(obj)
     print(obj is Singleton.get_instance())
+
+    # This will cause an exception
+    # new = Singleton()
+    # print(new)
