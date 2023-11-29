@@ -1,4 +1,4 @@
-# give objects number-like behavior
+# Give objects number-like behavior
 
 
 class Point:
@@ -7,17 +7,17 @@ class Point:
         self.y = y
 
     def __repr__(self):
-        return "<Point x:{0},y:{1}>".format(self.x, self.y)
+        return f"Point x:{self.x},y:{self.y}"
 
-    # implement addition
+    # Implement addition
     def __add__(self, other):
         return Point(self.x + other.x, self.y + other.y)
 
-    # implement subtraction
+    # Implement subtraction
     def __sub__(self, other):
         return Point(self.x - other.x, self.y - other.y)
 
-    # implement in-place addition
+    # Implement in-place addition
     def __iadd__(self, other):
         self.x += other.x
         self.y += other.y
@@ -25,7 +25,7 @@ class Point:
 
 
 def main():
-    # Declare some points
+    # Declare points
     p1 = Point(10, 20)
     p2 = Point(30, 30)
     print(p1, p2)
@@ -34,7 +34,7 @@ def main():
     p3 = p1 + p2
     print(p3)
 
-    # subtract two points
+    # Subtract two points
     p4 = p2 - p1
     print(p4)
 

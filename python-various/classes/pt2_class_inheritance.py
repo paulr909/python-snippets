@@ -2,7 +2,7 @@ class Vehicle:
     def __init__(self, color, manufacturer):
         self.color = color
         self.manufacturer = manufacturer
-        self.gas = 4  # full tank
+        self.gas = 4  # Full tank
 
     def drive(self):
         if self.gas > 0:
@@ -17,7 +17,7 @@ class Car(Vehicle):
     def radio():
         print("Pumping' Tunes!")
 
-    # open the window
+    # Open the window
     @staticmethod
     def window():
         print("Ah... fresh air!")
@@ -39,5 +39,5 @@ my_ecar.window()
 my_ecar.radio()
 my_ecar.drive()
 
-# access the lingering gas tank
+# Access the lingering gas tank
 print(my_ecar.gas)

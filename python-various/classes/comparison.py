@@ -1,4 +1,5 @@
 # Use special methods to compare objects to each other
+from typing import List
 
 
 class Employee:
@@ -8,7 +9,7 @@ class Employee:
         self.level = level
         self.seniority = yrs_service
 
-    # implement comparison functions by emp level
+    # Implement comparison functions by emp level
     def __ge__(self, other):
         if self.level == other.level:
             return self.seniority >= other.seniority
@@ -34,8 +35,8 @@ class Employee:
 
 
 def main():
-    # define some employees
-    dept = []
+    # Define employees
+    dept: list[Employee] = []
     dept.append(Employee("Tim", "Sims", 5, 9))
     dept.append(Employee("John", "Doe", 4, 12))
     dept.append(Employee("Jane", "Smith", 6, 6))
@@ -46,10 +47,10 @@ def main():
     print(bool(dept[0] > dept[2]))
     print(bool(dept[4] < dept[3]))
 
-    # sort the items
-    emps = sorted(dept)
-    for emp in emps:
-        print(emp.last_name)
+    # Sort the items
+    employees = sorted(dept)
+    for emp in employees:
+        print(f"{emp.first_name} {emp.last_name}")
 
 
 if __name__ == "__main__":

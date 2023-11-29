@@ -1,4 +1,4 @@
-# customize string representations of objects
+# Customize string representations of objects
 
 
 class Color:
@@ -7,16 +7,16 @@ class Color:
         self.green = 75
         self.blue = 100
 
-    # use getattr to dynamically return a value
+    # Use getattr to dynamically return a value
     def __getattr__(self, attr):
         if attr == "rgbcolor":
             return self.red, self.green, self.blue
         elif attr == "hexcolor":
-            return "#{0:02x}{1:02x}{2:02x}".format(self.red, self.green, self.blue)
+            return f"#{self.red:02x}{self.green:02x}{self.blue:02x}"
         else:
             raise AttributeError
 
-    # use setattr to dynamically return a value
+    # Use setattr to dynamically return a value
     def __setattr__(self, attr, val):
         if attr == "rgbcolor":
             self.red = val[0]
@@ -25,27 +25,27 @@ class Color:
         else:
             super().__setattr__(attr, val)
 
-    # use dir to list the available properties
+    # Use dir to list the available properties
     def __dir__(self):
         return ("rgbolor", "hexcolor")
 
 
 def main():
-    # create an instance of Color
+    # Create an instance of Color
     cls1 = Color()
-    # print the value of a computed attribute
+
     print(cls1.rgbcolor)
     print(cls1.hexcolor)
 
-    # set the value of a computed attribute
+    # Set the value of a computed attribute
     cls1.rgbcolor = (125, 200, 86)
     print(cls1.rgbcolor)
     print(cls1.hexcolor)
 
-    # access a regular attribute
+    # Access a regular attribute
     print(cls1.red)
 
-    # list the available attributes
+    # List the available attributes
     print(dir(cls1))
 
 

@@ -1,38 +1,33 @@
-# customize string representations of objects
+# Customize string representations of objects
 
 
 class Person:
     def __init__(self):
-        self.first_name = "Joe"
-        self.last_name = "Marini"
-        self.age = 25
+        self.first_name = "Lucy"
+        self.last_name = "verasamy"
+        self.age = 43
 
-    # use __repr__ to create a string useful for debugging
+    # Use __repr__ to create a string useful for debugging
     def __repr__(self):
-        return "<Person Class - first_name:{0}, last_name:{1}, age{2}>".format(
-            self.first_name, self.last_name, self.age
-        )
+        return f"<Person Class - first_name:{self.first_name}, last_name:{self.last_name}, age:{self.age}>"
 
-    # use str for a more human-readable string
+    # Use str for a more human-readable string
     def __str__(self):
-        return "Person ({0} {1} is {2})".format(
-            self.first_name, self.last_name, self.age
-        )
+        return f"Person ({self.first_name} {self.last_name}, {self.age})"
 
-    # use bytes to convert the informal string to a bytes object
+    # Use bytes to convert the informal string to a bytes object
     def __bytes__(self):
-        val = "Person:{0}:{1}:{2}".format(self.first_name, self.last_name, self.age)
+        val = f"Person:{self.first_name}:{self.last_name}:{self.age}"
         return bytes(val.encode("utf-8"))
 
 
 def main():
-    # create a new Person object
+    # Create a new Person object
     cls1 = Person()
 
-    # use different Python functions to convert it to a string
     print(repr(cls1))
     print(str(cls1))
-    print("Formatted: {0}".format(cls1))
+    print(f"Formatted: {cls1}")
     print(bytes(cls1))
 
 

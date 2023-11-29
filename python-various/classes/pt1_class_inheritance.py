@@ -2,7 +2,7 @@ class Vehicle:
     def __init__(self, color, manufacturer):
         self.color = color
         self.manufacturer = manufacturer
-        self.fuel = 4  # full tank
+        self.fuel = 4  # Full tank
 
     def drive(self):
         if self.fuel > 0:
@@ -17,7 +17,7 @@ class Car(Vehicle):
     def radio():
         print("Pumping' Tunes!")
 
-    # open the window
+    # Open the window
     @staticmethod
     def window():
         print("Ah... fresh air!")
@@ -37,10 +37,10 @@ my_mc.drive()
 my_mc.drive()
 my_mc.drive()
 my_mc.drive()
-my_mc.drive()  # out of fuel
+my_mc.drive()  # Out of fuel
 my_car.drive()
 
 my_car.radio()
 my_car.window()
 my_mc.helmet()
-# my_mc.window() # windows do not exist on motorcycles
+# my_mc.window()  # Windows do not exist on motorcycles

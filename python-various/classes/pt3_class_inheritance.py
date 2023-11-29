@@ -7,6 +7,7 @@ class Dog:
 
 
 my_dog = Dog("Shaggy")
+
 print(f"{my_dog.name} is a great dog!")
 my_dog.sit()
 
@@ -20,6 +21,7 @@ class SearchDog(Dog):
 
 
 my_dog = SearchDog("Snoop")
+
 print(f"{my_dog.name} is a search dog")
 my_dog.sit()
 my_dog.search()
