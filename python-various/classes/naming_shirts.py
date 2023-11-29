@@ -12,37 +12,37 @@ class Shirt:
         self.clean = True
 
 
-# create one shirt with two names
+# Create one shirt with two names
 red = Shirt()
 crimson = red
 
-# examine the red/crimson shirt
+# Examine the red/crimson shirt
 print(id(red))
 print(id(crimson))
 print(red.clean)
 print(crimson.clean)
 
-# spill juice on the red/crimson shirt
+# Spill juice on the red/crimson shirt
 red.make_dirty()
 print(red.clean)
 print(crimson.clean)
 
-# check that red and crimson are the same shirt
+# Check that red and crimson are the same shirt
 print(red is crimson)
 
-# create a second shirt to be named crimson
+# Create a second shirt to be named crimson
 crimson = Shirt()
 
-# examine both shirts
+# Examine both shirts
 print(id(red))
 print(id(crimson))
 print(crimson.clean)
 print(red.clean)
 
-# clean the red shirt
+# Clean the red shirt
 red.make_clean()
 print(red.clean)
 print(crimson.clean)
 
-# check that red and crimson are different shirts
+# Check that red and crimson are different shirts
 print(red is crimson)

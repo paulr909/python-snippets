@@ -1,21 +1,21 @@
 """ What Makes Up an Object? """
 
-# examine a string object
+# Examine a string object
 print("shirt")
 print(type("shirt"))
 print(dir("shirt"))
 
-# use upper method on a string object
+# Use upper method on a string object
 print("shirt".upper())
 
-# examine IDs of different string objects
+# Examine IDs of different string objects
 print(id("shirt"))
 print(id("pants"))
 
-# examine an integer object
+# Examine an integer object
 print(id(1))
 print(dir(1))
 
-# examine ID and attributes of functions
+# Examine ID and attributes of functions
 print(id(id))
 print(dir(dir))
