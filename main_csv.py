@@ -18,7 +18,14 @@ df = pd.read_csv("sample-data-v2/Inventory_v2.csv")
 
 # df.to_csv("sample-data-v2/inventory-v3.csv", index=False)
 
-print(df.duplicated())
+print(df["value"].max())
+print(df["value"].min())
+# Average
+print(df["value"].mean())
+# Overview of numerical data
+print(df.describe())
+
+# print(df.duplicated())
 
 # for x in df.index:
 #     if df.loc[x, "segment"] == "INDUSTRIAL":
@@ -28,3 +35,10 @@ print(df.duplicated())
 # print(df.corr())
 
 # df.to_csv("sample-data-v2/inventory-v3.csv", index=False)
+
+# Write to spreadsheet
+df.to_excel("sample-data-v2/inventory-v3.xlsx", index=False)
+
+excel_file = pd.read_excel("sample-data-v2/inventory-v3.xlsx")
+
+print(excel_file)
