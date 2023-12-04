@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-"""Clean data with Pandas"""
 
 df = pd.read_csv("sample-data-v2/Inventory_v2.csv")
 
@@ -35,10 +34,3 @@ print(df.describe())
 # print(df.corr())
 
 # df.to_csv("sample-data-v2/inventory-v3.csv", index=False)
-
-# Write to spreadsheet
-df.to_excel("sample-data-v2/inventory-v3.xlsx", index=False)
-
-excel_file = pd.read_excel("sample-data-v2/inventory-v3.xlsx")
-
-print(excel_file)
