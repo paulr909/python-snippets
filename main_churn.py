@@ -19,7 +19,7 @@ df_spec = pd.read_csv(
 )
 # print(df_spec.head())
 
-# Select columns with usecols=range(0, 10)
+# Select columns with usecols=[range(0, 10)]
 df_range = pd.read_csv("sample-data-v2/Churn_Modelling.csv", usecols=[range(0, 10)])
 # print(df_range.head())
 
