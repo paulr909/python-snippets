@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+
+# import matplotlib.pyplot as plt
 
 
 df = pd.read_csv("sample-data-v2/Churn_Modelling.csv")
@@ -19,7 +20,7 @@ df_spec = pd.read_csv(
 # print(df_spec.head())
 
 # Select columns with usecols=range(0, 10)
-df_range = pd.read_csv("sample-data-v2/Churn_Modelling.csv", usecols=range(0, 10))
+df_range = pd.read_csv("sample-data-v2/Churn_Modelling.csv", usecols=[range(0, 10)])
 # print(df_range.head())
 
 # Select 500 rows
@@ -124,7 +125,8 @@ df_new = (
 reset = df[["Geography", "Exited", "Balance"]].sample(n=6).reset_index()
 # print(reset)
 
-# The index is reset but the original is kept as a new column. We can drop it while resetting the index
+# The index is reset but the original is kept as a new column. We can drop it while
+# resetting the index
 reset2 = df[["Geography", "Exited", "Balance"]].sample(n=6).reset_index(drop=True)
 # print(reset2)
 
@@ -139,4 +141,4 @@ group = np.random.randint(10, size=6)
 
 # Insert at particular column
 df_new.insert(0, "Group", group)
-# print(df_new)
+print(df_new)
