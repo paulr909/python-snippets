@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 # import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("sample-data-v2/Churn_Modelling.csv")
+df = pd.read_csv("../sample-data-v2/Churn_Modelling.csv")
 
 # print(df.shape)
 # print(df.columns)
@@ -16,20 +16,21 @@ df = pd.read_csv("sample-data-v2/Churn_Modelling.csv")
 
 # Select columns with usecols=["X", "Y", "Z"]
 df_spec = pd.read_csv(
-    "sample-data-v2/Churn_Modelling.csv", usecols=["Gender", "Age", "Tenure", "Balance"]
+    "../sample-data-v2/Churn_Modelling.csv",
+    usecols=["Gender", "Age", "Tenure", "Balance"],
 )
 # print(df_spec.head())
 
 # Select columns with usecols=[*range(0, 10)]
-df_range = pd.read_csv("sample-data-v2/Churn_Modelling.csv", usecols=[*range(0, 10)])
+df_range = pd.read_csv("../sample-data-v2/Churn_Modelling.csv", usecols=[*range(0, 10)])
 # print(df_range.head())
 
 # Select 500 rows
-df_partial = pd.read_csv("sample-data-v2/Churn_Modelling.csv", nrows=500)
+df_partial = pd.read_csv("../sample-data-v2/Churn_Modelling.csv", nrows=500)
 # print(df_partial.shape)
 
 # Skip first 500 rows
-df_skip = pd.read_csv("sample-data-v2/Churn_Modelling.csv", skiprows=500)
+df_skip = pd.read_csv("../sample-data-v2/Churn_Modelling.csv", skiprows=500)
 # print(df_skip.shape)
 
 # Select sample data

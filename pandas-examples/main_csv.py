@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("sample-data-v2/Inventory_v2.csv")
+df = pd.read_csv("../sample-data-v2/Inventory_v2.csv")
 
 # df.plot(kind="scatter", x="quantity", y="value")
 # plt.show()
