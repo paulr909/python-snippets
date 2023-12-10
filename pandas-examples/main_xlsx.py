@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_csv("../sample-data-v2/Inventory_v2.csv")
+df = pd.read_csv("../sample-data/Inventory_v2.csv")
 
 # Write to spreadsheet
 df.to_excel("sample-data-v2/inventory-v3.xlsx", index=False)
