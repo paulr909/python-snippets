@@ -8,7 +8,6 @@ if response.status_code == 200:
 
     with open(csv_file_path, "wb") as csv_file:
         csv_file.write(response.content)
-
     print(f"CSV file saved successfully: {csv_file_path}")
 
 else:
