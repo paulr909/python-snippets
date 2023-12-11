@@ -46,7 +46,7 @@ print(df["value"].mode())
 # Replace values
 # df.loc[7, 'Duration'] = 45
 
-# Replace empty value with values
+# Replace empty value with data
 # df["segment"].fillna("INDUSTRIAL", inplace=True)
 
 for x in df.index:
