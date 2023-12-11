@@ -61,4 +61,4 @@ for x in df.index:
 # Error, not all values are numbers or floats
 # print(df.corr())
 
-# df.to_csv("sample-data-v2/inventory-v3.csv", index=False)
+df.to_csv("../../sample-data/inventory-v3.csv", index=False)
